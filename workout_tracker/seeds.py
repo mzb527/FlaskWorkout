@@ -1,5 +1,5 @@
 from app import create_app, db
-from app.models import Exercise, Workout
+from app.models import Exercise, Workout, WorkoutExercises
 
 app = create_app()
 
